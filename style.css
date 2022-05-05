@@ -8,11 +8,16 @@
     display: flex;
 }
 .container-form{
+    border: 5px solid red;
     display: flex;
     width: 675px;
+    
+
 }
 #evaluation-form{
     flex-direction: column;
+   
+   
 }
 .header {
     display: flex;
@@ -23,5 +28,17 @@
 }
 
 .trybewarts-login {
+    display: flex;
+}
+#trybewarts-forms-logo{
+    display: flex;
+    height: 500px;
+    align-self: flex-end;
+    
+}
+
+.imagen{
+    border: 5px solid black;
+
     display: flex;
 }
