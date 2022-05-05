@@ -11,17 +11,13 @@
 
 <body>
     <header class="header">
-      <img
-        class="trybewarts-header-logo"
-        src="images/trybewarts-header-logo.svg"
-        alt="Logotipo da Trybewarts"
-      />
-      <h1 id="trybewarts-header-title">Trybewarts</h1>
-      <form class="trybewarts-login" action="">
-        <input id="email" type="email" name="email" placeholder="Email">
-        <input id="senha" type="password" name="password" placeholder="Senha">
-        <button type="submit" id="botao">Entrar</button>
-      </form>
+        <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="Logotipo da Trybewarts" />
+        <h1 id="trybewarts-header-title">Trybewarts</h1>
+        <form class="trybewarts-login" action="">
+            <input id="email" type="email" name="email" placeholder="Email">
+            <input id="senha" type="password" name="password" placeholder="Senha">
+            <button type="submit" id="botao">Entrar</button>
+        </form>
     </header>
 
     <main class="container-main">
@@ -32,39 +28,40 @@
                 <input type="text" id="input-name" placeholder="Nome">
                 <input type="text" id="input-lastname" placeholder="Sobrenome">
                 <input type="text" id="input-email" placeholder="Email">
+
+                   
+                <select name="" id="house">
+                    <option type="text" value="Gitnória" id="gitnoria-house">Gitnória</option>
+                    <option type="text" value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+                    <option type="text" value="Corvinode" id="corvinode-house">Corvinode</option>
+                    <option type="text" value="Pytherina" id="pytherina-house">Pytherina</option>
+                </select>
             </div>
-          
-            <select name="" id="house">
-                <option type="text" value="Gitnória" id="gitnoria-house">Gitnória</option>
-                <option type="text" value="Reactpuff" id="reactpuff-house">Reactpuff</option>
-                <option type="text" value="Corvinode" id="corvinode-house">Corvinode</option>
-                <option type="text" value="Pytherina" id="pytherina-house">Pytherina</option>
-            </select>
-       
+            <div class="area-de-texto-req-15">
+                <label for="textarea" class="textarea">Deixe seu comentário:</label>
+                <textarea name="textarea" id="textarea" cols="30" rows="10" maxlength="500"></textarea>
+            </div>
+            <div class="checkbox-req-16">
+                <label id="label-infos" for="agreement">Você concorda com o uso das informações acima?</label>
+                <input type="checkbox" id="agreement" name="agreement">
+            </div>
+            <div class="botao-formulario-req-17">
+                <button type="submit" id="submit-btn">Enviar</button>
+            </div>
+
         </form>
 
         <img id="trybewarts-forms-logo" src="./images/trybewarts-colored.svg" alt="logo">
 
+
     </main>
 
-<section id="requisitos-15-16-17-Sally">
-<div class="area-de-texto-req-15">
-    <label for="textarea" class="textarea">Deixe seu comentário:</label>
-<textarea name="textarea" id="textarea" cols="30" rows="10" maxlength="500"></textarea>
-</div>
-<div class="checkbox-req-16">
-<label id="label-infos" for="agreement">Você concorda com o uso das informações acima?</label>
-<input type="checkbox" id="agreement" name="agreement">
-</div>
-<div class="botao-formulario-req-17">
-    <button type="submit" id="submit-btn">Enviar</button>
-</div>
-</section>
 
 
-<footer>
-<p>Direitos reservados à Trybewarts©</p>
-</footer>
+
+    <footer>
+        <p>Direitos reservados à Trybewarts©</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 

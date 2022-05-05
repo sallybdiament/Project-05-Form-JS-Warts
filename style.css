@@ -54,7 +54,6 @@ footer {
 .container-inputs{
     display: flex;
     flex-wrap: wrap;
-    
 }
 
 .container-inputs :nth-of-type(1) {
