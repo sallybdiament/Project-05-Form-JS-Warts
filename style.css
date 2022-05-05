@@ -8,11 +8,17 @@
     display: flex;
 }
 .container-form{
+    border: 5px solid red;
     display: flex;
     width: 675px;
+    
+
 }
 #evaluation-form{
+    display: flex;
     flex-direction: column;
+   
+   
 }
 .header {
     display: flex;
@@ -30,4 +36,21 @@ footer {
     display: flex;
     justify-content: center;
     margin: 30px;
+#trybewarts-forms-logo{
+    display: flex;
+    height: 500px;
+    align-self: flex-end;
+    
+}
+
+.imagen{
+    border: 5px solid black;
+
+    display: flex;
+}
+
+.container-inputs{
+    display: flex;
+    flex-wrap: wrap;
+    
 }
