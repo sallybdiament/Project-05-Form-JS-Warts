@@ -7,18 +7,17 @@
 .container-main{
     display: flex;
 }
+
 .container-form{
     display: flex;
     width: 675px;
-    
-
 }
+
 #evaluation-form{
     display: flex;
-    flex-direction: column;
-   
-   
+    flex-direction: column; 
 }
+
 .header {
     display: flex;
     background-color: rgb(50, 167, 145);
@@ -45,7 +44,6 @@ footer {
 
 .imagen{
     border: 5px solid black;
-
     display: flex;
 }
 
@@ -63,14 +61,9 @@ footer {
 }
 .container-inputs :nth-of-type(3) {
     width: 50%;
-    
 }
-
 
 #house{
     display: flex;
-    width: 50%;
-    
+    width: 50%; 
 }
-
-

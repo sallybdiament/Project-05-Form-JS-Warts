@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
-</script>
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
     <title>Projeto Trybewarts</title>
     <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
     <header class="header">
         <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="Logotipo da Trybewarts" />
@@ -25,17 +23,12 @@
             <button type="submit" id="botao">Entrar</button>
         </form>
     </header>
-
     <main class="container-main">
-
         <form action="" id="evaluation-form" class="container-form">
-
             <div class="container-inputs">
                 <input type="text" id="input-name" placeholder="Nome">
                 <input type="text" id="input-lastname" placeholder="Sobrenome">
                 <input type="text" id="input-email" placeholder="Email">
-
-
                 <select name="" id="house">
                     <option type="text" value="Gitnória" id="gitnoria-house">Gitnória</option>
                     <option type="text" value="Reactpuff" id="reactpuff-house">Reactpuff</option>
@@ -43,7 +36,45 @@
                     <option type="text" value="Pytherina" id="pytherina-house">Pytherina</option>
                 </select>
             </div>
-            <div class="requisito14">
+            <label for="" id="label-family">Qual sua família?</label>
+            <div class="custom-control custom-radio">
+                <label class="custom-control-label" for="customRadio1">
+                <input type="radio" id="customRadio1"  name="family" class="custom-control-input" value="Frontend">Frontend
+            </div>
+            <div class="custom-control custom-radio">
+                <label class="custom-control-label" for="customRadio2">
+                <input type="radio" id="customRadio2" name="family" class="custom-control-input" value="Backend">Backend
+            </div>
+            <div class="custom-control custom-radio">
+                <label class="custom-control-label" for="customRadio3">
+                <input type="radio" id="customRadio3"  name="family" class="custom-control-input" value="FullStack">FullStack
+            </div>
+            <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="customCheck1" value="HoFs">
+                <label class="custom-control-label" for="customCheck1">HoFs</label>
+              </div>
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="customCheck1" value="Jest">
+                <label class="custom-control-label" for="customCheck1">Jest</label>
+              </div>
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="customCheck1" value="Promises">
+                <label class="custom-control-label" for="customCheck1">Promises</label>
+              </div>
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="customCheck1" value="React">
+                <label class="custom-control-label" for="customCheck1">React</label>
+              </div>
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="customCheck1" value="SQL">
+                <label class="custom-control-label" for="customCheck1">SQL</label>
+              </div>
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="customCheck1" value="Python">
+                <label class="custom-control-label" for="customCheck1">Python</label>
+              </div>
+            <div class="">
                 <p id="label-rate">Como você avalia a Trybewarts?</p>
                 <input type="radio" id="1" name="rate" value="1">
                 <label for="1">1</label>
@@ -77,24 +108,12 @@
             <div class="botao-formulario-req-17">
                 <button type="submit" id="submit-btn">Enviar</button>
             </div>
-
-          
         </form>
         <img id="trybewarts-forms-logo" src="./images/trybewarts-colored.svg" alt="logo">
     </main>
-
-
-
-
-
-
-
-
-
     <footer>
         <p>Direitos reservados à Trybewarts©</p>
     </footer>
     <script src="script.js"></script>
 </body>
-
 </html>
