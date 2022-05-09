@@ -16,6 +16,8 @@
 #evaluation-form {
   display: flex;
   flex-direction: column;
+  padding-left: 30px;
+  padding-top: 50px;
 }
 
 .header {
@@ -28,6 +30,7 @@
 
 .trybewarts-login {
   display: flex;
+ height: 30px;
 }
 
 footer {
