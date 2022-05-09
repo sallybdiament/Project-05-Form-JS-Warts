@@ -4,7 +4,7 @@ const inputPassword = document.getElementById('senha');
 const checkBox = document.getElementById('agreement');
 const btnEnviar = document.getElementById('submit-btn');
 const contador = document.getElementById('counter');
-const textArea = document.getElementById('textarea')
+const textArea = document.getElementById('textarea');
 
 botaoLogin.addEventListener('click', () => {
   if (inputEmail.value === 'tryber@teste.com' && inputPassword.value === '123456') {
@@ -20,8 +20,8 @@ checkBox.addEventListener('click', () => {
   }
 });
 
-// Fonte para fazer o requisito 20 do bônus: 
-// 1) https://www.youtube.com/watch?v=sRlgAjlwz0o&ab_channel=MatheusBattisti-HoradeCodar 
+// Fonte para fazer o requisito 20 do bônus:
+// 1) https://www.youtube.com/watch?v=sRlgAjlwz0o&ab_channel=MatheusBattisti-HoradeCodar
 // 2) https://pt.stackoverflow.com/questions/25753/como-fazer-um-contador-de-caracteres-de-uma-textarea
 
 contador.innerHTML = 500;
